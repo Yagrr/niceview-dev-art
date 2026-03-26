@@ -1,4 +1,12 @@
-# Nice!View Dev Arts
+# Nice!View Ninajirachi Art
+
+This repo is a fork of [Linkway/niceview-dev-art](https://github.com/Linkeway/niceview-dev-art). I've replaced the art with Ninajirachi-themed images (more to come!). Ninajirachi is one of my favorite music producer. Check out her [music](https://www.youtube.com/channel/UCcwCiUrlKs8dThVvGDcXkKg)!
+
+If you are using this ZMK module and assuming you've already been through the [ZMK user setup](https://zmk.dev/docs/user-setup), don't forget to use pin your `zmk-config` to its latest version because the `main` branch is highly unstable and could lead to your Github Actions to fail (see relevant [ZMK docs](https://zmk.dev/blog/2025/06/20/pinned-zmk#how-to-pin-your-zmk-version)).
+
+---
+
+# Nice!View Dev Arts (Original README.md by Linkway)
 
 This ZMK module displays a slideshow of 1-bit pixel art on the peripheral (right-hand) nice!view display.
 It offers a great balance between aesthetics and battery life, cycling through a collection of 30+ images at a configurable interval.
