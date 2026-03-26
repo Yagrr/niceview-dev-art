@@ -2,7 +2,7 @@
 
 This repo is a fork of [Linkway/niceview-dev-art](https://github.com/Linkeway/niceview-dev-art). I've replaced the art with Ninajirachi-themed images (more to come!). Ninajirachi is one of my favorite music producer. Check out her [music](https://www.youtube.com/channel/UCcwCiUrlKs8dThVvGDcXkKg)!
 
-If you are using this ZMK module and assuming you've already been through the [ZMK user setup](https://zmk.dev/docs/user-setup), don't forget to use pin your `zmk-config` to the latest stable version (v0.3) because the `main` branch is highly unstable and could lead to your Github Actions to fail (see relevant [ZMK docs](https://zmk.dev/blog/2025/06/20/pinned-zmk#how-to-pin-your-zmk-version)).
+If you are using this ZMK module and assuming you've already been through the [ZMK user setup](https://zmk.dev/docs/user-setup), don't forget to use pin your `zmk-config` to the latest stable version (v0.3) because the `main` branch is highly unstable and could fail your Github Actions  (see relevant [ZMK docs](https://zmk.dev/blog/2025/06/20/pinned-zmk#how-to-pin-your-zmk-version)).
 
 ---
 
