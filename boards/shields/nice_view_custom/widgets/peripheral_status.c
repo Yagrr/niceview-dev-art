@@ -23,6 +23,11 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #include "peripheral_status.h"
 
+#if IS_ENABLED(CONFIG_CUSTOM_ART_NINAJIRACHI)
+LV_IMG_DECLARE(ninajirachi)
+#endif
+    
+/*
 #if IS_ENABLED(CONFIG_CUSTOM_ART_HAMMERBEAM1)
 LV_IMG_DECLARE(hammerbeam1);
 #endif
@@ -132,8 +137,14 @@ LV_IMG_DECLARE(ship_it);
 #if IS_ENABLED(CONFIG_CUSTOM_ART_VIBE_CODING)
 LV_IMG_DECLARE(vibe_coding);
 #endif
+*/
 
 const lv_img_dsc_t *anim_imgs[] = {
+#if IS_ENABLED(CONFIG_CUSTOM_ART_NINAJIRACHI)
+    &ninajirachi, 
+#endif
+};
+/*
 #if IS_ENABLED(CONFIG_CUSTOM_ART_VIBE_CODING)
     &vibe_coding,
 #endif
@@ -243,7 +254,7 @@ const lv_img_dsc_t *anim_imgs[] = {
     &hammerbeam30,
 #endif
 };
-
+*/
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
